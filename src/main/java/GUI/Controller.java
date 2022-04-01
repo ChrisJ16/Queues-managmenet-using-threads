@@ -23,7 +23,7 @@ public class Controller implements ActionListener {
         int arrvTimeMin=-1, arrvTimeMax=-1;
         boolean ok=true;
 
-        OpPrelucrare operatii = new OpPrelucrare();
+        //OpPrelucrare operatii = new OpPrelucrare();
 
         String sClients = view.getNCLients().getText();
         String sThreads = view.getQThreads().getText();
@@ -61,6 +61,8 @@ public class Controller implements ActionListener {
                     Thread t = new Thread(sim);
                     t.start();
                 }
+                else
+                    view.setAreaText("A aparut o eroare la introducerea datelor!");
                 break;
             case "EX1":
                 view.getNCLients().setText("4");

@@ -1,212 +1,178 @@
 0
 *********************
-
 Time: 1
 Clienti in coada:
- [1,2,2] [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [1,6,3] [0,7,3] [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
-1
+0
 *********************
-
 Time: 2
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:  [1,2,1]
-Coada 2:   goala!
+ [1,6,3] [0,7,3] [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 3
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [1,6,3] [0,7,3] [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 4
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [1,6,3] [0,7,3] [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 5
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [1,6,3] [0,7,3] [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
-0
+1
 *********************
-
 Time: 6
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [0,7,3] [3,16,2] [2,20,3]
+Coada 1:  [1,6,2]
+Coada 2:  goala!
 ************************************
-
-0
+2
 *********************
-
 Time: 7
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  [1,6,1]
+Coada 2:  [0,7,2]
 ************************************
-
-0
+1
 *********************
-
 Time: 8
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  [0,7,1]
 ************************************
-
 0
 *********************
-
 Time: 9
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 10
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 11
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 12
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 13
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 14
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 0
 *********************
-
 Time: 15
 Clienti in coada:
- [0,16,3] [3,18,3] [2,20,2]
-Coada 1:   goala!
-Coada 2:   goala!
+ [3,16,2] [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 1
 *********************
-
 Time: 16
 Clienti in coada:
- [3,18,3] [2,20,2]
-Coada 1:  [0,16,2]
-Coada 2:   goala!
+ [2,20,3]
+Coada 1:  [3,16,1]
+Coada 2:  goala!
 ************************************
-
-1
+0
 *********************
-
 Time: 17
 Clienti in coada:
- [3,18,3] [2,20,2]
-Coada 1:  [0,16,1]
-Coada 2:   goala!
+ [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
-1
+0
 *********************
-
 Time: 18
 Clienti in coada:
- [2,20,2]
-Coada 1:   goala!
-Coada 2:  [3,18,2]
+ [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
-1
+0
 *********************
-
 Time: 19
 Clienti in coada:
- [2,20,2]
-Coada 1:   goala!
-Coada 2:  [3,18,1]
+ [2,20,3]
+Coada 1:  goala!
+Coada 2:  goala!
 ************************************
-
 1
 *********************
-
 Time: 20
 Clienti in coada:
 
-Coada 1:  [2,20,1]
-Coada 2:   goala!
+Coada 1:  [2,20,2]
+Coada 2:  goala!
 ************************************
-
-0
+1
 *********************
-
 Time: 21
 Clienti in coada:
 
-Coada 1:   goala!
-Coada 2:   goala!
+Coada 1:  [2,20,1]
+Coada 2:  goala!
 ************************************
+0
+*********************
+Time: 22
+Clienti in coada:
 
-Timp de asteptare mediu 2.5
-Timp de servire mediu 5.0
+Coada 1:  goala!
+Coada 2:  goala!
+************************************
+Timp de asteptare mediu 2.75
+Timp de servire mediu 5.5

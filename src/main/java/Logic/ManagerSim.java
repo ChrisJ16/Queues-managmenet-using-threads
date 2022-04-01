@@ -57,12 +57,6 @@ public class ManagerSim implements  Runnable{
         clientList.sort(Client::compareTo);
     }
 
-    public void showStats(){
-        for(Client c : clientList)
-            System.out.println(c.toString());
-        for(Server s : planific.getServere())
-            System.out.println(s.toString() + '\n');
-    }
 
     public String getStatus(){ //pt a vizualiza starea cozilor, precum si cei care sunt inca in coada principala
         String str = new String();
@@ -70,15 +64,15 @@ public class ManagerSim implements  Runnable{
         for(Client t : clientList)
             str = str + " " + t.toString();
         str = str + "\n";
-        int i=1;
+        int kcont=1;
         for(Server s : planific.getServere()) {
             if(s.toString().isEmpty())
-                str = str + "Coada " + i + ":   goala!\n";
+                str = str + "Coada " + kcont + ":  goala!\n";
             else
-                str = str + "Coada " + i + ": " + s.toString() + "\n";
-            ++i;
+                str = str + "Coada " + kcont + ": " + s.toString() + "\n";
+            kcont++;
         }
-        str = str + "************************************\n\n";
+        str = str + "************************************\n";
         return str;
     }
 
@@ -120,15 +114,15 @@ public class ManagerSim implements  Runnable{
 
     @Override
     public void run() {
-        int currentTime = 0;
         bigStr = new String();
+        int nowTimeSim = 0; //timpul curent din simulare
         planific.startThread(); //pornim thread-urile
-        while (currentTime < simTime && checkQueues()){
-            currentTime++;
-            String str = new String("*********************\n\nTime: " + currentTime + "\n");
+        while (nowTimeSim < simTime && checkQueues()){
+            nowTimeSim++;
+            String str = new String("*********************\nTime: " + nowTimeSim + "\n");
             ArrayList<Client> aux = new ArrayList<>();
             for(Client t : clientList){
-                if(t.getArrivalTime() == currentTime)  //daca timpul cand a ajuns clientul este egal cu timpul simularii => il distribuim la o coada
+                if(t.getArrivalTime() == nowTimeSim)  //daca timpul cand a ajuns clientul este egal cu timpul simularii => il distribuim la o coada
                     planific.dispatchClient(t);
                 else aux.add(t);
             }
